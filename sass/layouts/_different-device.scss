@@ -1,0 +1,98 @@
+.different-device {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.different-device__subtitle {
+  color: #fff;
+  text-align: center;
+
+  font-size: 24px;
+
+  font-weight: 500;
+  line-height: 130%;
+  opacity: 0.9;
+  margin-bottom: 16px;
+}
+.different-device__text {
+  color: #fff;
+  text-align: center;
+
+  font-size: 15px;
+
+  font-weight: 400;
+  line-height: 150%;
+  opacity: 0.8;
+  margin-bottom: 5px;
+}
+.different-device__wrapper {
+  width: 304px;
+  height: 182.677px;
+  background-image: url("../../images/Devices-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 39px;
+}
+.different-device__button {
+  color: #fff;
+
+  font-size: 15px;
+
+  font-weight: 500;
+  line-height: 24px;
+  display: inline-flex;
+  padding: 14px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #fc3232;
+  border: none;
+  margin-bottom: 34px;
+}
+.different-device__list {
+  padding: 10px 16px;
+}
+.different-device__item-1 {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.different-device__icon-1 {
+  display: inline-flex;
+  width: 122.4px;
+  height: 21.6px;
+  background-image: url("../../images/Frame-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.different-device__icon-2 {
+  display: inline-flex;
+  width: 48px;
+  height: 19.2px;
+  background-image: url("../../images/apple-ios-logo-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.different-device__item-2 {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.different-device__icon-3 {
+  display: inline-flex;
+  width: 128.16px;
+  height: 23.04px;
+  background-image: url("../../images/Android_tv_logo-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.different-device__icon-4 {
+  display: inline-flex;
+  width: 106.8px;
+  height: 14.4px;
+  background-image: url("../../images/Frame\ 4588-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}

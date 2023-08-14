@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css
+    "
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+    <title>Test</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__container--bg">
+        <div class="container">
+          <nav class="site__nav">
+            <ul class="header-nav__list">
+              <li>
+                <a href="./index.html" class="logo"></a
+                ><img
+                  class="image__logo"
+                  src="./images/image 25.svg"
+                  alt="SVG Image"
+                />
+              </li>
+              <li><button class="header__button">Войти</button></li>
+            </ul>
+          </nav>
+
+          <hi class="header__title">Более 270 телеканалов в прямом эфире </hi>
+          <div class="header__image--container"></div>
+          <p class="header__text">
+            Национальные, познавательные, детские, кино, спортивные, новостные и
+            многие другие каналы
+          </p>
+          <button class="header__button--test">
+            Протестировать 7 дней бесплатно
+          </button>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="prices">
+        <div class="container">
+          <div class="prices__wrapper">
+            <div class="prices__eye"></div>
+            <p class="prices__invisible">price</p>
+            <p class="prices__text--top">
+              <span class="prices__text--red">1€</span>/ МЕСЯЦ
+            </p>
+            <h2 class="prices__subtitle">
+              Покупая подписку более, чем на 6 месяцев
+            </h2>
+
+            <ul class="prices__list">
+              <li class="prices__item">
+                <svg
+                  class="prices__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                >
+                  <path
+                    d="M4.5 11.5588L9.97059 17.0294L20 7"
+                    stroke="#EEC63B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+                ><span class="prices__item--text">Более 270 каналов</span>
+              </li>
+              <li class="prices__item">
+                <svg
+                  class="prices__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                >
+                  <path
+                    d="M4.5 11.5588L9.97059 17.0294L20 7"
+                    stroke="#EEC63B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>127 FullHD каналов</span>
+              </li>
+              <li class="prices__item">
+                <svg
+                  class="prices__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                >
+                  <path
+                    d="M4.5 11.5588L9.97059 17.0294L20 7"
+                    stroke="#EEC63B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>Режим Ultra TV Sport</span>
+              </li>
+              <li class="prices__item">
+                <svg
+                  class="prices__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                >
+                  <path
+                    d="M4.5 11.5588L9.97059 17.0294L20 7"
+                    stroke="#EEC63B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>7 дней архива каналов</span>
+              </li>
+              <li class="prices__item">
+                <svg
+                  class="prices__icon"
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="25"
+                  height="24"
+                  viewBox="0 0 25 24"
+                  fill="none"
+                >
+                  <path
+                    d="M4.5 11.5588L9.97059 17.0294L20 7"
+                    stroke="#EEC63B"
+                    stroke-width="3"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+                <span>5 устройств = 1 подписка</span>
+              </li>
+            </ul>
+            <label class="prices__label" for="email"></label>
+            <input
+              class="prices__email"
+              type="email"
+              id="email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+            <button class="prices__button" type="submit">
+              Подключить тариф
+            </button>
+          </div>
+        </div>
+      </section>
+      <section class="chanels">
+        <div class="container">
+          <div class="chanels__icon"></div>
+          <h2 class="chanels__subtitle">ТВ - каналы</h2>
+          <p class="chanels__text">
+            Национальные, познавательные, детские, кино, спортивные, новостные и
+            многие другие телеканалы
+          </p>
+          <div class="slider">
+            <div class="slider-container">
+              <div class="slide">
+                <button class="chanels__button">Популярные</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Национальные</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Познавательные</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Кино</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Спорт</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Детские</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Музыкальные</button>
+              </div>
+              <div class="slide">
+                <button class="chanels__button">Новостные</button>
+              </div>
+            </div>
+            <button class="prev-button">&#8249;</button>
+            <button class="next-button">&#8250;</button>
+          </div>
+          <ul class="chanels__list">
+            <li class="chanels__item chanels__item--1"></li>
+            <li class="chanels__item chanels__item--2"></li>
+            <li class="chanels__item chanels__item--3"></li>
+            <li class="chanels__item chanels__item--4"></li>
+            <li class="chanels__item chanels__item--5"></li>
+            <li class="chanels__item chanels__item--6"></li>
+          </ul>
+          <div class="show-all__wrapper">
+            <p class="chanels__show-all">Показать все</p>
+            <span class="show-all__icons"
+              ><svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M8 10L12 14L16 10"
+                  stroke="#FC3232"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+          </div>
+        </div>
+      </section>
+      <section class="different-device">
+        <div class="container">
+          <h2 class="different-device__subtitle">
+            Смотрите на разных устройствах
+          </h2>
+          <p class="different-device__text">
+            Подключайте подписку FULL и смотрите любимые каналы на 5
+            устройствах, среди которых: телевизор, компьютер, планшет или
+            смартфон
+          </p>
+          <div class="different-device__wrapper"></div>
+          <button class="different-device__button">
+            Протестировать 7 дней бесплатно
+          </button>
+          <ul class="different-device__list">
+            <li class="different-device__item-1">
+              <span class="different-device__icon-1"></span>
+              <span class="different-device__icon-2"></span>
+            </li>
+            <li class="different-device__item-2">
+              <span class="different-device__icon-3"></span>
+              <span class="different-device__icon-4"></span>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="question">
+        <div class="container">
+          <h2 class="qustion__subtitle">Популярные вопросы</h2>
+          <ul class="question__list">
+            <li class="question__item">
+              <p>Как подключить подписку OTTCLUB или продлить ее?</p>
+              <span class="qestion__item--icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M8 11L12 13.88L16 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+            </li>
+            <li class="question__item">
+              <p>Как смотреть одновременно на разных устройствах?</p>
+              <span class="qestion__item--icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M8 11L12 13.88L16 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+            </li>
+            <li class="question__item">
+              <p>Какая скорость соединения необходима для просмотра каналов?</p>
+              <span class="qestion__item--icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M8 11L12 13.88L16 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+            </li>
+            <li class="question__item">
+              <p>Как смотреть на телевизоре Samsung?</p>
+              <span class="qestion__item--icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M8 11L12 13.88L16 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+            </li>
+            <li class="question__item">
+              <p>Как посмотреть передачу, которая была в эфире ранее?</p>
+              <span class="qestion__item--icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M8 11L12 13.88L16 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+            </li>
+            <li class="question__item">
+              <p>Как работает бесплатный тестовый период?</p>
+              <span class="qestion__item--icon"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M8 11L12 13.88L16 11"
+                    stroke="white"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  /></svg
+              ></span>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="footer__list">
+          <li class="footer__item">
+            <a class="footer__link" href="#">О нас</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Пользовательское соглашение</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Политика конфиденциальности</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">ТВ-Каналам</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Проверка скорости</a>
+          </li>
+          <li class="footer__item">
+            <a class="footer__link" href="#">Правила оформления подписки</a>
+          </li>
+        </ul>
+        <p class="footer__text">Помощь</p>
+        <ul class="footer__list--contacts">
+          <li class="footer__item--contacts">+442045772169 (Англия)</li>
+          <li class="footer__item--contacts">+420255708953 (Европа)</li>
+          <li class="footer__item--contacts">+97233751723 (Израиль)</li>
+          <li class="footer__item--contacts">support@ottclub.cc</li>
+        </ul>
+        <p class="footer__chat">Чат-поддержка</p>
+        <div class="footer__chat--container">
+          <span class="footer__chat--icons-1"><a href="#"></a></span>
+          <span class="footer__chat--icons-2"><a href="#"></a></span>
+        </div>
+        <ul class="footer__paymants--list">
+          <li class="footer__paymants--item-1"></li>
+          <li class="footer__paymants--item-2"></li>
+          <li class="footer__paymants--item-3"></li>
+          <li class="footer__paymants--item-4"></li>
+          <li class="footer__paymants--item-5"></li>
+        </ul>
+        <p class="footer__text--company-name">
+          &#169; 2021-2022 COMPANY NAME LTD
+        </p>
+        <p class="footer__text--code">Company number 1221514</p>
+      </div>
+    </footer>
+    <script src="./js/slider.js"></script>
+  </body>
+</html>

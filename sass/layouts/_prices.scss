@@ -1,0 +1,127 @@
+.prices {
+  padding-top: 20px;
+  padding-bottom: 31px;
+}
+.prices__wrapper {
+  background-image: url("../../images/Vector.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-bottom: 32px;
+}
+.prices__subtitle {
+  color: #fff;
+  text-align: center;
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+
+  font-weight: 400;
+  line-height: 140%;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+.prices__list {
+  display: inline-flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: flex-start;
+  padding-left: 25.5px;
+}
+.prices__item {
+  display: flex;
+  align-items: center;
+
+  gap: 16px;
+  color: #fff;
+
+  font-size: 15px;
+
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.3px;
+}
+.prices__email {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 32px;
+  margin-bottom: 16px;
+  display: flex;
+  padding: 15px 16px;
+  align-items: center;
+  gap: 10px;
+
+  opacity: 0.9;
+  border-radius: 5px;
+  border: 1px solid #d0d0d1;
+
+  background: #fff;
+}
+.prices__label {
+  color: rgba(60, 60, 67, 0.6);
+  font-feature-settings: "clig" off, "liga" off;
+
+  font-size: 15px;
+
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0.15px;
+  opacity: 0.9;
+}
+.prices__button {
+  color: #fff;
+
+  font-size: 15px;
+
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  background: #ff1f1f;
+  border: none;
+  margin: 0 auto;
+}
+.prices__text--red {
+  color: #ff1f1f;
+
+  font-size: 67px;
+
+  font-weight: 600;
+  line-height: 67px;
+}
+.prices__text--top {
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+
+  font-weight: 400;
+  line-height: 16px;
+  text-transform: uppercase;
+  opacity: 0.8;
+  margin-bottom: 24px;
+}
+.prices__eye {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40px;
+  height: 50px;
+  flex-shrink: 0;
+  background-image: url("../../images/eye-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  position: absolute;
+  top: 3%;
+  right: 42.5%;
+}
+.prices__invisible {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 80px;
+}

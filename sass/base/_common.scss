@@ -1,0 +1,41 @@
+body {
+  font-family: "Inter", sans-serif;
+  background-image: url("../../images/bg-2x.png");
+  background-size: cover;
+  background-position: center;
+}
+.container {
+  max-width: 100%;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin: 0 auto;
+  max-width: 320px;
+
+  @include mobile {
+    max-width: 343px;
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  @include tablet {
+    max-width: 688px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  @include tablet-big {
+    max-width: 894px;
+    padding-left: 48px;
+    padding-right: 48px;
+  }
+
+  @include desktop {
+    max-width: 1096px;
+    padding-left: 172px;
+    padding-right: 172px;
+  }
+  @include big-screen {
+    max-width: 1462px;
+    padding-left: 229px;
+    padding-right: 229px;
+  }
+}
