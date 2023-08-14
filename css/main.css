@@ -94,6 +94,7 @@ body {
   background-repeat: no-repeat;
   background-position: 50% 140%;
   z-index: -1;
+  padding-bottom: 16px;
 }
 
 .header__button {
