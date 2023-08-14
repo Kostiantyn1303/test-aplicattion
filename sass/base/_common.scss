@@ -1,8 +1,5 @@
 body {
   font-family: "Inter", sans-serif;
-  background-image: url("../images/bg-2x.png");
-  background-size: cover;
-  background-position: center;
 }
 .container {
   max-width: 100%;
@@ -12,29 +9,27 @@ body {
   max-width: 320px;
 
   @include mobile {
-    max-width: 343px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 375px;
   }
 
   @include tablet {
-    max-width: 688px;
+    max-width: 768px;
     padding-left: 40px;
     padding-right: 40px;
   }
   @include tablet-big {
-    max-width: 894px;
+    max-width: 990px;
     padding-left: 48px;
     padding-right: 48px;
   }
 
   @include desktop {
-    max-width: 1096px;
+    max-width: 1440px;
     padding-left: 172px;
     padding-right: 172px;
   }
   @include big-screen {
-    max-width: 1462px;
+    max-width: 1920px;
     padding-left: 229px;
     padding-right: 229px;
   }

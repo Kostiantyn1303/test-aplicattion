@@ -31,9 +31,6 @@ img {
 
 body {
   font-family: "Inter", sans-serif;
-  background-image: url("../images/bg-2x.png");
-  background-size: cover;
-  background-position: center;
 }
 
 .container {
@@ -45,35 +42,33 @@ body {
 }
 @media screen and (min-width: 375px) {
   .container {
-    max-width: 343px;
-    padding-left: 16px;
-    padding-right: 16px;
+    max-width: 375px;
   }
 }
 @media screen and (min-width: 768px) {
   .container {
-    max-width: 688px;
+    max-width: 768px;
     padding-left: 40px;
     padding-right: 40px;
   }
 }
 @media screen and (min-width: 990px) {
   .container {
-    max-width: 894px;
+    max-width: 990px;
     padding-left: 48px;
     padding-right: 48px;
   }
 }
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1096px;
+    max-width: 1440px;
     padding-left: 172px;
     padding-right: 172px;
   }
 }
 @media screen and (min-width: 1920px) {
   .container {
-    max-width: 1462px;
+    max-width: 1920px;
     padding-left: 229px;
     padding-right: 229px;
   }
@@ -95,6 +90,11 @@ body {
   background-position: 50% 140%;
   z-index: -1;
   padding-bottom: 16px;
+}
+@media screen and (min-width: 375px) {
+  .header__container--bg {
+    background-size: 375px;
+  }
 }
 
 .header__button {
@@ -139,6 +139,11 @@ body {
   font-weight: 600;
   line-height: 120%;
 }
+@media screen and (min-width: 375px) {
+  .header__title {
+    font-size: 28px;
+  }
+}
 
 .header__image--container {
   background-image: url("../images/Right pic-2x.png");
@@ -151,6 +156,14 @@ body {
   margin-right: auto;
   margin-bottom: 16px;
 }
+@media screen and (min-width: 375px) {
+  .header__image--container {
+    margin-top: 13px;
+    width: 300px;
+    height: 173px;
+    margin-bottom: 13px;
+  }
+}
 
 .header__text {
   color: #fff;
@@ -160,6 +173,12 @@ body {
   line-height: 140%;
   opacity: 0.8;
   margin-bottom: 24px;
+}
+@media screen and (min-width: 375px) {
+  .header__text {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
 }
 
 .header__button--test {
@@ -183,11 +202,24 @@ body {
   background: #fc3232;
   border: none;
 }
+@media screen and (min-width: 375px) {
+  .header__button--test {
+    width: 343px;
+    height: 56px;
+    font-size: 17px;
+  }
+}
 
 .site__nav {
   padding-top: 16px;
   padding-bottom: 16px;
   margin-bottom: 16px;
+}
+@media screen and (min-width: 375px) {
+  .site__nav {
+    padding-top: 48px;
+    margin-bottom: 24px;
+  }
 }
 
 .prices {
@@ -198,6 +230,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 375px) {
+  .prices {
+    padding-top: 52px;
+  }
+}
 
 .prices__wrapper {
   background-image: url("../images/Vector.svg");
@@ -206,7 +243,6 @@ body {
   position: relative;
   padding-bottom: 32px;
 }
-
 .prices__subtitle {
   color: #fff;
   text-align: center;
@@ -336,12 +372,22 @@ body {
   top: 3%;
   right: 42.5%;
 }
+@media screen and (min-width: 375px) {
+  .prices__eye {
+    right: 44%;
+  }
+}
 
 .prices__invisible {
   width: 0;
   height: 0;
   overflow: hidden;
   margin-bottom: 80px;
+}
+@media screen and (min-width: 375px) {
+  .prices__invisible {
+    margin-bottom: 60px;
+  }
 }
 
 .chanels {
@@ -362,6 +408,11 @@ body {
   opacity: 0.9;
   margin-bottom: 8px;
 }
+@media screen and (min-width: 375px) {
+  .chanels__subtitle {
+    font-size: 28px;
+  }
+}
 
 .chanels__text {
   color: #fff;
@@ -371,6 +422,11 @@ body {
   line-height: 150%;
   opacity: 0.7;
   margin-bottom: 24.5px;
+}
+@media screen and (min-width: 375px) {
+  .chanels__text {
+    font-size: 16px;
+  }
 }
 
 .slider {
@@ -383,6 +439,11 @@ body {
   margin-bottom: 24.5px;
   padding: 30px;
   z-index: 1;
+}
+@media screen and (min-width: 375px) {
+  .slider {
+    margin-bottom: 4px;
+  }
 }
 
 .slider-container {
@@ -402,7 +463,7 @@ body {
 }
 
 .chanels__button {
-  width: 131px;
+  width: 168px;
   height: 39px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -421,6 +482,11 @@ body {
   font-size: 15px;
   font-weight: 400;
   line-height: 150%;
+}
+@media screen and (min-width: 375px) {
+  .chanels__button {
+    width: 208px;
+  }
 }
 
 .chanels__button:hover,
@@ -461,6 +527,11 @@ body {
   gap: 16px;
   margin-bottom: 19px;
   z-index: 2;
+}
+@media screen and (min-width: 375px) {
+  .chanels__list {
+    margin-bottom: 24px;
+  }
 }
 
 .chanels__item {
@@ -547,6 +618,12 @@ body {
   right: 50px;
   top: 20px;
 }
+@media screen and (min-width: 375px) {
+  .chanels__icon {
+    right: 70px;
+    top: 18px;
+  }
+}
 
 .web {
   width: 200px;
@@ -568,6 +645,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 375px) {
+  .different-device {
+    padding-top: 34px;
+  }
+}
 
 .different-device__subtitle {
   color: #fff;
@@ -577,6 +659,12 @@ body {
   line-height: 130%;
   opacity: 0.9;
   margin-bottom: 16px;
+}
+@media screen and (min-width: 375px) {
+  .different-device__subtitle {
+    font-size: 28px;
+    margin-bottom: 18px;
+  }
 }
 
 .different-device__text {
@@ -588,6 +676,11 @@ body {
   opacity: 0.8;
   margin-bottom: 5px;
 }
+@media screen and (min-width: 375px) {
+  .different-device__text {
+    font-size: 16px;
+  }
+}
 
 .different-device__wrapper {
   width: 304px;
@@ -596,6 +689,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 39px;
+}
+@media screen and (min-width: 375px) {
+  .different-device__wrapper {
+    width: 343px;
+    height: 204px;
+    margin-bottom: 23px;
+  }
 }
 
 .different-device__button {
@@ -617,6 +717,13 @@ body {
   background: #fc3232;
   border: none;
   margin-bottom: 34px;
+}
+@media screen and (min-width: 375px) {
+  .different-device__button {
+    width: 340px;
+    height: 56px;
+    font-size: 17px;
+  }
 }
 
 .different-device__list {
