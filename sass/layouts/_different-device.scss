@@ -1,6 +1,14 @@
 .different-device {
   padding-top: 16px;
   padding-bottom: 16px;
+  background-image: linear-gradient(
+    180deg,
+    hsl(0deg 50% 24%) 0%,
+    hsl(0deg 51% 12%) 37%,
+    hsl(0deg 0% 0%) 100%
+  );
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 .different-device__subtitle {
   color: #fff;

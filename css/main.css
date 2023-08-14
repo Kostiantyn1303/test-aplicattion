@@ -86,7 +86,7 @@ body {
 
 .header {
   background-position: center;
-  padding-bottom: 16px;
+  background: radial-gradient(circle at 3% 5%, rgb(52, 34, 86) 0%, rgb(91, 19, 44) 34%, rgba(16, 16, 16, 0.98) 100%);
 }
 
 .header__container--bg {
@@ -193,6 +193,10 @@ body {
 .prices {
   padding-top: 20px;
   padding-bottom: 31px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(0deg, 0%, 5%)), color-stop(63%, hsl(235deg, 17%, 14%)), to(hsl(239deg, 34%, 23%)));
+  background-image: linear-gradient(180deg, hsl(0deg, 0%, 5%) 0%, hsl(235deg, 17%, 14%) 63%, hsl(239deg, 34%, 23%) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .prices__wrapper {
@@ -344,6 +348,9 @@ body {
   padding-top: 50px;
   padding-bottom: 18px;
   position: relative;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(239deg, 34%, 23%)), color-stop(54%, hsl(300deg, 42%, 23%)), to(hsl(0deg, 50%, 24%)));
+  background-image: linear-gradient(180deg, hsl(239deg, 34%, 23%) 0%, hsl(300deg, 42%, 23%) 54%, hsl(0deg, 50%, 24%) 100%);
+  z-index: -2;
 }
 
 .chanels__subtitle {
@@ -451,6 +458,7 @@ body {
       flex-wrap: wrap;
   gap: 16px;
   margin-bottom: 19px;
+  z-index: 2;
 }
 
 .chanels__item {
@@ -538,9 +546,25 @@ body {
   top: 20px;
 }
 
+.web {
+  width: 200px;
+  height: 370px;
+  position: absolute;
+  top: 35%;
+  left: 0;
+  background-image: url("../../images/web-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
 .different-device {
   padding-top: 16px;
   padding-bottom: 16px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(0deg, 50%, 24%)), color-stop(37%, hsl(0deg, 51%, 12%)), to(hsl(0deg, 0%, 0%)));
+  background-image: linear-gradient(180deg, hsl(0deg, 50%, 24%) 0%, hsl(0deg, 51%, 12%) 37%, hsl(0deg, 0%, 0%) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .different-device__subtitle {
@@ -670,6 +694,10 @@ body {
 
 .question {
   padding-top: 16px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(hsl(0deg, 0%, 0%)), color-stop(83%, hsl(229deg, 43%, 10%)), to(hsl(230deg, 41%, 19%)));
+  background-image: linear-gradient(180deg, hsl(0deg, 0%, 0%) 0%, hsl(229deg, 43%, 10%) 83%, hsl(230deg, 41%, 19%) 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .qustion__subtitle {
@@ -734,6 +762,95 @@ body {
 .footer {
   padding-top: 48px;
   padding-bottom: 14px;
+  position: relative;
+  background: radial-gradient(circle at 97% 5%, rgb(37, 44, 51) 0%, rgb(57, 43, 76) 47%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -2;
+}
+
+.tree__container {
+  width: 320px;
+  height: 555px;
+  position: absolute;
+  left: 0;
+  top: 14.5%;
+  background-image: url("../../images/tree-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+}
+
+.grass__container {
+  width: 280px;
+  height: 90px;
+  background-image: url("../../images/grass-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  left: 12%;
+  bottom: 0;
+  z-index: -1;
+}
+
+.couple__container {
+  background-image: url("../../images/pump-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 125.008px;
+  height: 74.986px;
+  position: absolute;
+  right: 4%;
+  bottom: 3%;
+  z-index: 0;
+}
+
+.first--pump__container {
+  background-image: url("../../images/z-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 50.144px;
+  position: absolute;
+  right: 33%;
+  bottom: 30%;
+  z-index: -1;
+}
+
+.second--pump__container {
+  background-image: url("../../images/Group-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 55px;
+  position: absolute;
+  right: 49%;
+  bottom: 27%;
+  z-index: -1;
+}
+
+.line__container {
+  background-image: url("../../images/line-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1px;
+  height: 50.213px;
+  position: absolute;
+  right: 55%;
+  bottom: 35%;
+  z-index: -1;
+}
+
+.line__container--1 {
+  background-image: url("../../images/line-2x.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1px;
+  height: 50.213px;
+  position: absolute;
+  right: 40%;
+  bottom: 34%;
+  z-index: -1;
 }
 
 .footer__list {
