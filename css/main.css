@@ -31,7 +31,7 @@ img {
 
 body {
   font-family: "Inter", sans-serif;
-  background-image: url("../../images/bg-2x.png");
+  background-image: url("../images/bg-2x.png");
   background-size: cover;
   background-position: center;
 }
@@ -90,7 +90,7 @@ body {
 }
 
 .header__container--bg {
-  background-image: url("../../images/bats pic.png");
+  background-image: url("../images/bats pic.png");
   background-repeat: no-repeat;
   background-position: 50% 140%;
   z-index: -1;
@@ -141,7 +141,7 @@ body {
 }
 
 .header__image--container {
-  background-image: url("../../images/Right pic-2x.png");
+  background-image: url("../images/Right pic-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-top: 16px;
@@ -200,7 +200,7 @@ body {
 }
 
 .prices__wrapper {
-  background-image: url("../../images/Vector.svg");
+  background-image: url("../images/Vector.svg");
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -329,7 +329,7 @@ body {
   height: 50px;
   -ms-flex-negative: 0;
       flex-shrink: 0;
-  background-image: url("../../images/eye-2x.png");
+  background-image: url("../images/eye-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -479,25 +479,25 @@ body {
 }
 
 .chanels__item--1 {
-  background-image: url("../../images/TV card-2x.png");
+  background-image: url("../images/TV card-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .chanels__item--2 {
-  background-image: url("../../images/zoom-2x.png");
+  background-image: url("../images/zoom-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .chanels__item--3 {
-  background-image: url("../../images/ukraine-2x.png");
+  background-image: url("../images/ukraine-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .chanels__item--4 {
-  background-image: url("../../images/inter-2x.png");
+  background-image: url("../images/inter-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -509,7 +509,7 @@ body {
 }
 
 .chanels__item--6 {
-  background-image: url("../../images/ictv-2x.png");
+  background-image: url("../images/ictv-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -538,7 +538,7 @@ body {
 .chanels__icon {
   width: 40px;
   height: 40px;
-  background-image: url("../../images/tickets-2x.png");
+  background-image: url("../images/tickets-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -552,7 +552,7 @@ body {
   position: absolute;
   top: 35%;
   left: 0;
-  background-image: url("../../images/web-2x.png");
+  background-image: url("../images/web-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -590,7 +590,7 @@ body {
 .different-device__wrapper {
   width: 304px;
   height: 182.677px;
-  background-image: url("../../images/Devices-2x.png");
+  background-image: url("../images/Devices-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   margin-bottom: 39px;
@@ -641,7 +641,7 @@ body {
   display: inline-flex;
   width: 122.4px;
   height: 21.6px;
-  background-image: url("../../images/Frame-2x.png");
+  background-image: url("../images/Frame-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -652,7 +652,7 @@ body {
   display: inline-flex;
   width: 48px;
   height: 19.2px;
-  background-image: url("../../images/apple-ios-logo-2x.png");
+  background-image: url("../images/apple-ios-logo-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -676,7 +676,7 @@ body {
   display: inline-flex;
   width: 128.16px;
   height: 23.04px;
-  background-image: url("../../images/Android_tv_logo-2x.png");
+  background-image: url("../images/Android_tv_logo-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -687,7 +687,7 @@ body {
   display: inline-flex;
   width: 106.8px;
   height: 14.4px;
-  background-image: url("../../images/Frame 4588-2x.png");
+  background-image: url("../images/Frame 4588-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -775,7 +775,7 @@ body {
   position: absolute;
   left: 0;
   top: 14.5%;
-  background-image: url("../../images/tree-2x.png");
+  background-image: url("../images/tree-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   z-index: -1;
@@ -784,7 +784,7 @@ body {
 .grass__container {
   width: 280px;
   height: 90px;
-  background-image: url("../../images/grass-2x.png");
+  background-image: url("../images/grass-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   position: absolute;
@@ -794,7 +794,7 @@ body {
 }
 
 .couple__container {
-  background-image: url("../../images/pump-2x.png");
+  background-image: url("../images/pump-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 125.008px;
@@ -806,7 +806,7 @@ body {
 }
 
 .first--pump__container {
-  background-image: url("../../images/z-2x.png");
+  background-image: url("../images/z-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 48px;
@@ -818,7 +818,7 @@ body {
 }
 
 .second--pump__container {
-  background-image: url("../../images/Group-2x.png");
+  background-image: url("../images/Group-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 48px;
@@ -830,7 +830,7 @@ body {
 }
 
 .line__container {
-  background-image: url("../../images/line-2x.png");
+  background-image: url("../images/line-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1px;
@@ -842,7 +842,7 @@ body {
 }
 
 .line__container--1 {
-  background-image: url("../../images/line-2x.png");
+  background-image: url("../images/line-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
   width: 1px;
@@ -933,7 +933,7 @@ body {
 .footer__chat--icons-1 {
   width: 32px;
   height: 32px;
-  background-image: url("../../images/logos_whatsapp-2x.png");
+  background-image: url("../images/logos_whatsapp-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -941,7 +941,7 @@ body {
 .footer__chat--icons-2 {
   width: 32px;
   height: 32px;
-  background-image: url("../../images/logos_telegram-2x.png");
+  background-image: url("../images/logos_telegram-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -965,7 +965,7 @@ body {
 .footer__paymants--item-1 {
   width: 84px;
   height: 32px;
-  background-image: url("../../images/logos_visa-2x.png");
+  background-image: url("../images/logos_visa-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -973,7 +973,7 @@ body {
 .footer__paymants--item-2 {
   width: 55px;
   height: 32px;
-  background-image: url("../../images/master card-2x.png");
+  background-image: url("../images/master card-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -981,7 +981,7 @@ body {
 .footer__paymants--item-3 {
   width: 92px;
   height: 32px;
-  background-image: url("../../images/image 640-2x.png");
+  background-image: url("../images/image 640-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -989,7 +989,7 @@ body {
 .footer__paymants--item-4 {
   width: 103px;
   height: 32px;
-  background-image: url("../../images/373095 1-2x.png");
+  background-image: url("../images/373095 1-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -997,7 +997,7 @@ body {
 .footer__paymants--item-5 {
   width: 65px;
   height: 23px;
-  background-image: url("../../images/Frame-sepa-2x.png");
+  background-image: url("../images/Frame-sepa-2x.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
