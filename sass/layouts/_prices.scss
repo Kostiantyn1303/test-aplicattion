@@ -22,6 +22,7 @@
   position: relative;
   padding-bottom: 32px;
   @include mobile {
+    background-image: url("../../images/Vector-375.svg");
   }
 }
 .prices__subtitle {
@@ -72,6 +73,11 @@
   border: 1px solid #d0d0d1;
 
   background: #fff;
+  @include tablet {
+    margin: 0;
+    width: 300px;
+    border-radius: 0;
+  }
 }
 .prices__label {
   color: rgba(60, 60, 67, 0.6);
@@ -99,6 +105,10 @@
   background: #ff1f1f;
   border: none;
   margin: 0 auto;
+  @include tablet {
+    margin: 0;
+    border-radius: 0;
+  }
 }
 .prices__text--red {
   color: #ff1f1f;
@@ -136,6 +146,12 @@
   @include mobile {
     right: 44%;
   }
+  @include tablet {
+    width: 46px;
+    height: 58px;
+    right: 46%;
+    top: 10%;
+  }
 }
 .prices__invisible {
   width: 0;
@@ -144,5 +160,25 @@
   margin-bottom: 80px;
   @include mobile {
     margin-bottom: 60px;
+  }
+  @include tablet {
+    margin-bottom: 120px;
+  }
+}
+.prices__flex-container--tablet {
+  @include tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+.prices__container--email {
+  @include tablet {
+    display: flex;
+    gap: 0px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
   }
 }

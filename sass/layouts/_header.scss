@@ -6,6 +6,17 @@
     rgba(91, 19, 44, 1) 34%,
     rgba(16, 16, 16, 0.98) 100%
   );
+  .header__container {
+    position: relative;
+  }
+  @include tablet {
+    background: radial-gradient(
+      circle at 3% 5%,
+      rgba(52, 34, 86, 1) 0%,
+      rgba(91, 19, 44, 1) 34%,
+      rgba(16, 16, 16, 1) 100%
+    );
+  }
 }
 .header__container--bg {
   background-image: url("../images/bats\ pic.png");
@@ -14,6 +25,12 @@
   background-position: 50% 140%;
   @include mobile {
     background-size: 375px;
+  }
+  @include tablet {
+    padding-bottom: 41px;
+    background-image: url("../../images/berds-2x.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
   }
 
   z-index: -1;
@@ -50,6 +67,9 @@
   @include mobile {
     font-size: 28px;
   }
+  @include tablet {
+    font-size: 32px;
+  }
 }
 .header__image--container {
   background-image: url("../images/Right\ pic-2x.png");
@@ -68,6 +88,13 @@
     height: 173px;
     margin-bottom: 13px;
   }
+  @include tablet {
+    width: 520px;
+    height: 315px;
+    position: absolute;
+    right: -32%;
+    top: 12%;
+  }
 }
 .header__text {
   color: #fff;
@@ -82,6 +109,10 @@
   @include mobile {
     font-size: 16px;
     margin-bottom: 48px;
+  }
+  @include tablet {
+    font-size: 17px;
+    text-align: start;
   }
 }
 .header__button--test {
@@ -103,4 +134,68 @@
     height: 56px;
     font-size: 17px;
   }
+  @include tablet {
+    margin-bottom: 73px;
+  }
+}
+.header__navigation--table {
+  display: none;
+  @include tablet {
+    display: block;
+  }
+}
+.header__container--tablet {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+  justify-content: center;
+}
+.header__navigation--registration {
+  margin-left: 24px;
+  color: #fff;
+
+  font-size: 16px;
+  opacity: 0.8;
+  font-weight: 600;
+  line-height: 140%;
+}
+.header__soc-link--1 {
+  margin-right: 24px;
+}
+.header-title__container--tablet {
+  @include tablet {
+    width: 430px;
+    margin-bottom: 24px;
+  }
+}
+.header-tablet__container-text {
+  @include tablet {
+    width: 430px;
+    margin-bottom: 34px;
+  }
+}
+.header__list--icons {
+  display: none;
+  @include tablet {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+}
+.header__text--icons {
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+
+  font-size: 16px;
+
+  font-weight: 600;
+  line-height: 24px;
+}
+.header__item--icons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
 }

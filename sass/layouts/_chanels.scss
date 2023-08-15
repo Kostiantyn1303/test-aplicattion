@@ -9,6 +9,9 @@
     hsl(0deg 50% 24%) 100%
   );
   z-index: 1;
+  @include tablet {
+    padding-top: 70px;
+  }
 }
 .chanels__subtitle {
   color: #fff;
@@ -23,6 +26,11 @@
   @include mobile {
     font-size: 28px;
   }
+  @include tablet {
+    text-align: start;
+    font-size: 30px;
+    margin-bottom: 16px;
+  }
 }
 .chanels__text {
   color: #fff;
@@ -36,6 +44,10 @@
   margin-bottom: 24.5px;
   @include mobile {
     font-size: 16px;
+  }
+  @include tablet {
+    text-align: start;
+    width: 510px;
   }
 }
 .slider {
@@ -80,6 +92,9 @@
   line-height: 150%;
   @include mobile {
     width: 208px;
+  }
+  @include tablet {
+    width: 480px;
   }
 }
 .chanels__button:hover,
@@ -130,6 +145,12 @@
   flex-basis: calc((100% - 32px) / 3);
   border-radius: 5px;
   border: 1px solid #c6c6c8;
+  @include tablet {
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 5px;
+    border: 1px solid #c6c6c8;
+    height: 105px;
+  }
 }
 .chanels__item--1 {
   background-image: url("../images/TV\ card-2x.png");
@@ -161,6 +182,24 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.chanels__item--film {
+  display: none;
+  @include tablet {
+    display: block;
+    background-image: url("../images/film-768.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+.chanels__item--m1 {
+  display: none;
+  @include tablet {
+    display: block;
+    background-image: url("../images/m1-768.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
 .chanels__show-all {
   color: #fff;
   text-align: right;
@@ -188,6 +227,10 @@
   @include mobile {
     right: 70px;
     top: 18px;
+  }
+  @include tablet {
+    right: 500px;
+    top: 30px;
   }
 }
 .web {
