@@ -723,11 +723,17 @@ body {
     width: 340px;
     height: 56px;
     font-size: 17px;
+    margin-bottom: 32px;
   }
 }
 
 .different-device__list {
   padding: 10px 16px;
+}
+@media screen and (min-width: 375px) {
+  .different-device__list {
+    padding: 12px 16px;
+  }
 }
 
 .different-device__item-1 {
@@ -808,6 +814,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+@media screen and (min-width: 375px) {
+  .question {
+    padding-bottom: 87px;
+  }
+}
 
 .qustion__subtitle {
   color: #fff;
@@ -817,6 +828,11 @@ body {
   line-height: 140%;
   opacity: 0.9;
   margin-bottom: 24px;
+}
+@media screen and (min-width: 375px) {
+  .qustion__subtitle {
+    margin-bottom: 32px;
+  }
 }
 
 .question__list {
@@ -877,6 +893,12 @@ body {
   background-size: cover;
   z-index: -2;
 }
+@media screen and (min-width: 375px) {
+  .footer {
+    padding-top: 0;
+    padding-top: 64px;
+  }
+}
 
 .tree__container {
   width: 320px;
@@ -889,6 +911,12 @@ body {
   background-size: cover;
   z-index: -1;
 }
+@media screen and (min-width: 375px) {
+  .tree__container {
+    left: 0;
+    top: -4%;
+  }
+}
 
 .grass__container {
   width: 280px;
@@ -900,6 +928,13 @@ body {
   left: 12%;
   bottom: 0;
   z-index: -1;
+}
+@media screen and (min-width: 375px) {
+  .grass__container {
+    left: 11%;
+    bottom: 0;
+    width: 330px;
+  }
 }
 
 .couple__container {
@@ -925,6 +960,12 @@ body {
   bottom: 30%;
   z-index: -1;
 }
+@media screen and (min-width: 375px) {
+  .first--pump__container {
+    bottom: 35%;
+    right: 36%;
+  }
+}
 
 .second--pump__container {
   background-image: url("../images/Group-2x.png");
@@ -936,6 +977,11 @@ body {
   right: 49%;
   bottom: 27%;
   z-index: -1;
+}
+@media screen and (min-width: 375px) {
+  .second--pump__container {
+    bottom: 31%;
+  }
 }
 
 .line__container {
@@ -949,6 +995,11 @@ body {
   bottom: 35%;
   z-index: -1;
 }
+@media screen and (min-width: 375px) {
+  .line__container {
+    bottom: 40%;
+  }
+}
 
 .line__container--1 {
   background-image: url("../images/line-2x.png");
@@ -960,6 +1011,12 @@ body {
   right: 40%;
   bottom: 34%;
   z-index: -1;
+}
+@media screen and (min-width: 375px) {
+  .line__container--1 {
+    bottom: 41%;
+    right: 42%;
+  }
 }
 
 .footer__list {
@@ -975,6 +1032,18 @@ body {
           align-items: flex-start;
   gap: 8px;
   margin-bottom: 32px;
+}
+@media screen and (min-width: 375px) {
+  .footer__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 32px;
+  }
 }
 
 .footer__link {
@@ -1129,4 +1198,20 @@ body {
   font-size: 11px;
   font-weight: 400;
   line-height: 140%;
+}
+
+@media screen and (min-width: 375px) {
+  .footer__contacts--container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    gap: 56px;
+    -webkit-box-align: baseline;
+        -ms-flex-align: baseline;
+            align-items: baseline;
+  }
 }/*# sourceMappingURL=main.css.map */

@@ -74,10 +74,14 @@
     width: 340px;
     height: 56px;
     font-size: 17px;
+    margin-bottom: 32px;
   }
 }
 .different-device__list {
   padding: 10px 16px;
+  @include mobile {
+    padding: 12px 16px;
+  }
 }
 .different-device__item-1 {
   display: flex;
